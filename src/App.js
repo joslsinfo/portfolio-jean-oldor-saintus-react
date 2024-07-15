@@ -11,7 +11,7 @@ import "./index.css";
 const App = () => {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="portfolio-jean-oldor-saintus-react">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
