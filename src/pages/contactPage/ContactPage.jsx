@@ -3,7 +3,7 @@ import "./ContactPage.css";
 
 const ContactPage = () => {
   return (
-    <div className="container">
+    <div className="container home">
       <h1 className="contact-page">Contact page, en cours de production ...</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti

@@ -3,7 +3,7 @@ import "./AboutPage.css";
 
 const AboutPage = () => {
   return (
-    <div className="container">
+    <div className="container home">
       <h1 className="about-page">About Page, en cours de production...</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
