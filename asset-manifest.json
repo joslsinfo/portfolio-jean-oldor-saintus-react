@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio-jean-oldor-saintus-react/static/css/main.fa4b2804.css",
+    "main.js": "/portfolio-jean-oldor-saintus-react/static/js/main.e518ff2b.js",
+    "static/js/453.55b4a11a.chunk.js": "/portfolio-jean-oldor-saintus-react/static/js/453.55b4a11a.chunk.js",
+    "static/media/terrasse.png": "/portfolio-jean-oldor-saintus-react/static/media/terrasse.080cab93c89e65c4570a.png",
+    "static/media/img-salledereunion.png": "/portfolio-jean-oldor-saintus-react/static/media/img-salledereunion.ae7b3ccd1b6b27e4cb5e.png",
+    "static/media/table-dessus.png": "/portfolio-jean-oldor-saintus-react/static/media/table-dessus.6b1865d36f20dc408cc6.png",
+    "static/media/img-programming.png": "/portfolio-jean-oldor-saintus-react/static/media/img-programming.90e405d8a4f38cde8297.png",
+    "static/media/fille-burger.png": "/portfolio-jean-oldor-saintus-react/static/media/fille-burger.5f1a63824b3cd475f6f7.png",
+    "static/media/img-bureauvirtuel2.png": "/portfolio-jean-oldor-saintus-react/static/media/img-bureauvirtuel2.46acde8cc2759839b8ca.png",
+    "static/media/cv-jos.pdf": "/portfolio-jean-oldor-saintus-react/static/media/cv-jos.823bdbd4bbca12f839e5.pdf",
+    "static/media/beign-bleuet.png": "/portfolio-jean-oldor-saintus-react/static/media/beign-bleuet.0f41ef291106c3678cec.png",
+    "static/media/image-coworkers.jpg": "/portfolio-jean-oldor-saintus-react/static/media/image-coworkers.f0f04c61828005f90664.jpg",
+    "static/media/img13.JPG": "/portfolio-jean-oldor-saintus-react/static/media/img13.84e073684f30fad24c5d.JPG",
+    "static/media/Zhenwei-wang-cheng.jpg": "/portfolio-jean-oldor-saintus-react/static/media/Zhenwei-wang-cheng.2ab19def31be0493a23c.jpg",
+    "static/media/jaden-smith-principal.jpg": "/portfolio-jean-oldor-saintus-react/static/media/jaden-smith-principal.911edb23844ea37551ac.jpg",
+    "static/media/wenwen-han.jpg": "/portfolio-jean-oldor-saintus-react/static/media/wenwen-han.e293ed231e6edb5b1c8f.jpg",
+    "static/media/chat-coussin.jpg": "/portfolio-jean-oldor-saintus-react/static/media/chat-coussin.ef831032b92cec1a427b.jpg",
+    "static/media/jcjs.jpg": "/portfolio-jean-oldor-saintus-react/static/media/jcjs.4f7f0549b70fac0483ae.jpg",
+    "static/media/chatitalien.jpg": "/portfolio-jean-oldor-saintus-react/static/media/chatitalien.f2b197a3cd134920886e.jpg",
+    "static/media/chatarmenien.jpg": "/portfolio-jean-oldor-saintus-react/static/media/chatarmenien.b23a99ace971b366347d.jpg",
+    "static/media/josprofilsize.jpg": "/portfolio-jean-oldor-saintus-react/static/media/josprofilsize.8a6e7d0336c4c4059f55.jpg",
+    "static/media/Thewisdomofcatsisinfinitelysuperior.jpg": "/portfolio-jean-oldor-saintus-react/static/media/Thewisdomofcatsisinfinitelysuperior.4a3c15441ced4114b55d.jpg",
+    "index.html": "/portfolio-jean-oldor-saintus-react/index.html",
+    "main.fa4b2804.css.map": "/portfolio-jean-oldor-saintus-react/static/css/main.fa4b2804.css.map",
+    "main.e518ff2b.js.map": "/portfolio-jean-oldor-saintus-react/static/js/main.e518ff2b.js.map",
+    "453.55b4a11a.chunk.js.map": "/portfolio-jean-oldor-saintus-react/static/js/453.55b4a11a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa4b2804.css",
+    "static/js/main.e518ff2b.js"
+  ]
+}
