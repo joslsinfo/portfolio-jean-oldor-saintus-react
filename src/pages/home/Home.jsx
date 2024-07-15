@@ -46,7 +46,7 @@ const Home = () => {
         Voir mon CV
       </a>
       <div className="presentation-image">
-        <img src={programming} alt="Programming image" />
+        <img src={programming} alt="Programming" />
       </div>
 
       <section className="row mb-3">
