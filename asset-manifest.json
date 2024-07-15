@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-jean-oldor-saintus-react/static/css/main.b558b08d.css",
-    "main.js": "/portfolio-jean-oldor-saintus-react/static/js/main.6f8ddc5c.js",
+    "main.css": "/portfolio-jean-oldor-saintus-react/static/css/main.f675ffcf.css",
+    "main.js": "/portfolio-jean-oldor-saintus-react/static/js/main.21699bb2.js",
     "static/js/453.55b4a11a.chunk.js": "/portfolio-jean-oldor-saintus-react/static/js/453.55b4a11a.chunk.js",
     "static/media/terrasse.png": "/portfolio-jean-oldor-saintus-react/static/media/terrasse.080cab93c89e65c4570a.png",
     "static/media/img-salledereunion.png": "/portfolio-jean-oldor-saintus-react/static/media/img-salledereunion.ae7b3ccd1b6b27e4cb5e.png",
@@ -23,12 +23,12 @@
     "static/media/josprofilsize.jpg": "/portfolio-jean-oldor-saintus-react/static/media/josprofilsize.8a6e7d0336c4c4059f55.jpg",
     "static/media/Thewisdomofcatsisinfinitelysuperior.jpg": "/portfolio-jean-oldor-saintus-react/static/media/Thewisdomofcatsisinfinitelysuperior.4a3c15441ced4114b55d.jpg",
     "index.html": "/portfolio-jean-oldor-saintus-react/index.html",
-    "main.b558b08d.css.map": "/portfolio-jean-oldor-saintus-react/static/css/main.b558b08d.css.map",
-    "main.6f8ddc5c.js.map": "/portfolio-jean-oldor-saintus-react/static/js/main.6f8ddc5c.js.map",
+    "main.f675ffcf.css.map": "/portfolio-jean-oldor-saintus-react/static/css/main.f675ffcf.css.map",
+    "main.21699bb2.js.map": "/portfolio-jean-oldor-saintus-react/static/js/main.21699bb2.js.map",
     "453.55b4a11a.chunk.js.map": "/portfolio-jean-oldor-saintus-react/static/js/453.55b4a11a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b558b08d.css",
-    "static/js/main.6f8ddc5c.js"
+    "static/css/main.f675ffcf.css",
+    "static/js/main.21699bb2.js"
   ]
 }
