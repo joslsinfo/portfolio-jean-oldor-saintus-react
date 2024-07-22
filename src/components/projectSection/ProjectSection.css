@@ -1,5 +1,10 @@
 .projects-section {
     padding: 20px;
+    margin-top: 3.5rem;
+  }
+  .projects-section h1{
+    text-align: center;
+   
   }
   
   .projects {
