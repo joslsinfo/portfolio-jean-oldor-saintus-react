@@ -13,6 +13,7 @@ const App = () => {
     <div>
       <BrowserRouter basename="portfolio-jean-oldor-saintus-react">
         <Header />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutPage />} />

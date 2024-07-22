@@ -1,37 +1,85 @@
-import React from "react";
+import React, { useRef } from "react";
 import "./ContactPage.css";
+import emailjs from "@emailjs/browser";
 
-const ContactPage = () => {
+export const ContactPage = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_EMAILJS_SERVICEID,
+        process.env.REACT_APP_EMAILJS_TEMPLATEID,
+        form.current,
+        process.env.REACT_APP_EMAILJS_USERID
+      )
+      .then(
+        (result) => {
+          // Code pour gérer la soumission réussie du formulaire
+          console.log("SUCCESS!", result.text);
+          // Réinitialiser le formulaire après l'envoi réussi
+          if (form.current) {
+            form.current.reset();
+          }
+        },
+        (error) => {
+          // Code pour gérer l'échec de la soumission du formulaire
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
+
   return (
-    <div className="container home">
-      <h1 className="contact-page">Contact page, en cours de production ...</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-        perferendis mollitia at ab soluta hic ipsa perspiciatis inventore
-        aperiam, consequatur neque quia minus autem voluptate, iste vero
-        praesentium quisquam libero. Error, laudantium pariatur dolor nostrum
-        ducimus molestiae ullam earum omnis accusantium iusto saepe eligendi
-        sint corporis maxime minima, magnam, quasi a impedit autem cumque
-        praesentium aperiam. Neque saepe omnis perspiciatis. Rem expedita, ullam
-        impedit enim non, omnis fuga perferendis, minus accusamus cumque iste
-        maxime quidem ex? Sapiente similique in eius tenetur quasi.
-        Exercitationem dolore deserunt esse dignissimos, porro libero.
-        Perspiciatis ratione facere vel nisi magnam quia provident voluptas
-        molestias alias dolorem, officiis ducimus dolore iste unde hic
-        necessitatibus aspernatur a asperiores vero rem repellat doloremque
-        ullam, soluta enim. Aperiam sunt cum, ipsa reprehenderit dolorum modi
-        quasi magni, et ullam dicta repudiandae. Voluptatum accusantium enim
-        inventore dignissimos officiis, totam fugiat, quasi fugit, ab laboriosam
-        ipsa perspiciatis nemo esse laudantium natus dolor pariatur quibusdam ea
-        eius voluptate quam porro error ullam delectus! Id quas repellat tenetur
-        repellendus pariatur architecto, voluptates quam cum officiis amet
-        reprehenderit, aliquid, qui dignissimos expedita voluptate? Incidunt
-        voluptatibus delectus rem sed itaque velit minima, repellat, deleniti
-        quibusdam reprehenderit quia in ut odio repudiandae voluptates soluta
-        ullam nesciunt ab.
+    <form ref={form} onSubmit={sendEmail} className="container mt-5 home">
+      <h1 className="contact">Contact</h1>
+      <p className="contact-message">
+        Merci de visiter mon portfolio ! Que vous ayez des questions, des
+        opportunités professionnelles ou des collaborations à proposer,
+        n'hésitez pas à me contacter. Je vous répondrai dans les plus brefs
+        délais.
       </p>
-    </div>
+
+      <div className="mb-3 mt-3">
+        <label htmlFor="name" className="form-label">
+          Nom
+        </label>
+        <input
+          type="text"
+          id="name"
+          name="your_name"
+          className="form-control"
+          required
+        />
+      </div>
+      <div className="mb-3">
+        <label htmlFor="email" className="form-label">
+          Courriel
+        </label>
+        <input
+          type="email"
+          id="email"
+          name="your_email"
+          className="form-control"
+          required
+        />
+      </div>
+      <div className="mb-3">
+        <label htmlFor="message" className="form-label">
+          Message
+        </label>
+        <textarea
+          id="message"
+          name="message"
+          className="form-control"
+          required
+        ></textarea>
+      </div>
+      <button type="submit" className="btn btn-primary">
+        Send
+      </button>
+    </form>
   );
 };
-
 export default ContactPage;
